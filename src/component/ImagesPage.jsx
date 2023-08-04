@@ -45,11 +45,11 @@ const ImagesPage = () => {
 
   return (
     <>
-    <div className=' relative text-center'>
+    {/* <div className=' relative text-center'>
       <img src={poster} alt="" />
       <h1 style={{fontFamily:" 'Satisfy', cursive"}} className=' absolute top-2 md:top-10 lg:top-20 w-full text-center  text-[#C38D4A] text-xl md:text-4xl lg:text-5xl'>{images[0]?.name} </h1>
 
-    </div>
+    </div> */}
     
     <div className="container mx-auto  w-full md:w-4/6  px-10 py-10  space-y-8 ">
       {/* <h1 className="text:lg md:text-3xl font-bold mb-6 text-center"> {images[0]?.name} {categoryName}</h1> */}
