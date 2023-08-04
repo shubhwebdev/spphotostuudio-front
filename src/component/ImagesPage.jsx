@@ -18,7 +18,7 @@ const ImagesPage = () => {
     const fetchImages = async () => {
       try {
         const response = await axios.get(
-          `https://tpj.onrender.com/images/person?category=${categoryName}&name=${name}`
+          `https://spstudio.onrender.com/images/person?category=${categoryName}&name=${name}`
         );
         setImages(response.data);
         setLoading(false);
