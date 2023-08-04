@@ -32,6 +32,7 @@ const Services = () => {
           src={photo.src}
           alt={photo.title}
           className=" h-40  md:h-96 w-full object-cover object-top"
+          loading="lazy"
         />
         <div className=' text-center  font-bold text-lg '>{photo.title}</div>
        

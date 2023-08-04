@@ -41,7 +41,7 @@ const Kids = () => {
             to={`/${photo.category}/${photo._id}`}
             className="    relative rounded-lg overflow-hidden shadow-md shadow-black/5 dark:shadow-black/30"
           >
-            <img key={photo.id} src={photo.url} alt="image" className="  h-full w-full object-cover  object-center " />
+            <img key={photo.id} src={photo.url} alt="image" className="  h-full w-full object-cover  object-center " loading="lazy" />
             <p className=" absolute  bottom-0     w-full  text-lg md:text-md lg:text-lg text-black bg-white/50 text-center  pb-1">
               {photo._id}
             </p>

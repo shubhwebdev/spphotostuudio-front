@@ -47,6 +47,7 @@ const RandomImage = (props) => {
           src={image.imageUrl}
           alt={image.alt}
           className=" object-cover  shadow-md m-2"
+          loading="lazy"
         />
       ))}
 
@@ -56,6 +57,7 @@ const RandomImage = (props) => {
             src={selectedImage.imageUrl}
             alt={selectedImage.name}
             className="max-w-full max-h-full"
+            loading="lazy"
           />
           <button
             className="absolute top-4 right-4 text-white text-xl font-bold bg-red-500 px-4 py-2 rounded"

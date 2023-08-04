@@ -36,6 +36,7 @@ console.log(photos)
           src={photo.imageUrl}
           alt=""
           className="w-full h-auto object-cover"
+          loading="lazy"
         />
       ))}
     </div>

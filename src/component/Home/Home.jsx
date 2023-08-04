@@ -41,20 +41,20 @@ What if it could never be recorded?</h1>
         <div className="  grid grid-cols-3   md:h-80 lg:h-96 gap-2 md:gap-5 lg:gap-10 object-cover px-0 md:px-10 ">
          <div  className=" w-full h-full overflow-hidden">
           
-          <img className=" w-full h-full  object-cover" src={three} alt="" />
+          <img className=" w-full h-full  object-cover" src={three} alt="" loading="lazy" />
           </div>
           <div className=" w-full h-full overflow-hidden">
-        <img className="  w-full h-full object-cover" src={four1} alt="" />
+        <img className="  w-full h-full object-cover" src={four1} alt="" loading="lazy" />
             </div> 
             <div className=" w-full h-full overflow-hidden ">
-        <img className="w-full h-full object-cover " src={five1} alt="" />
+        <img className="w-full h-full object-cover " src={five1} alt="" loading="lazy" />
 
             </div>
 
     
         </div>
       </div>
-      <img className=" mt-14 w-full h-full object-cover" src={two} alt="" />
+      <img className=" mt-14 w-full h-full object-cover" src={two} alt="" loading="lazy" />
       <div className="box4">
         <div className=" text-center py-3 md:py-10   ">
           <h1 className="text-xl md:text-4xl">PACKAGES
@@ -65,15 +65,15 @@ What if it could never be recorded?</h1>
         <div className="  grid  grid-cols-3   md:h-80 lg:h-96 gap-2 md:gap-5 lg:gap-10 object-cover px-0 md:px-10 ">
          <Link  to="/package" className=" w-full h-full overflow-hidden">
           
-          <img className=" w-full h-full  object-cover" src={one1} alt="" />
+          <img className=" w-full h-full  object-cover" src={one1} alt="" loading="lazy" />
           {/* <h1 className=" text-center">wedding</h1> */}
           </Link>
           <Link to="/package" className=" w-full h-full overflow-hidden">
-        <img className="  w-full h-full object-cover" src={two1} alt="" />
+        <img className="  w-full h-full object-cover" src={two1} alt="" loading="lazy" />
         {/* <h1 className=" text-center">pre wedding</h1> */}
             </Link> 
             <Link to="/package" className=" w-full h-full overflow-hidden ">
-        <img className="w-full h-full object-cover " src={three1} alt="" />
+        <img className="w-full h-full object-cover " src={three1} alt="" loading="lazy" />
         {/* <h1 className=" text-center">cinamatic shoot</h1> */}
             </Link>
 

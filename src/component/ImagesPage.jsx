@@ -61,7 +61,7 @@ const ImagesPage = () => {
             className="p-4 border border-gray-200 rounded cursor-pointer"
             onClick={() => handleImageClick(image)}
           >
-            <img src={image.imageUrl} alt={image.name} className="mb-2" />
+            <img src={image.imageUrl} alt={image.name} className="mb-2" loading="lazy" />
           </div>
         ))}
       </div>
