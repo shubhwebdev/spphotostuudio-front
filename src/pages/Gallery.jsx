@@ -15,7 +15,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/images?catagory=${categoryName}`); // Replace with your API endpoint
+        const response = await axios.get(`https://spstudio.onrender.com/images?catagory=${categoryName}`); // Replace with your API endpoint
         console.log(response.data.images)
         setPhotos(response.data.images);
       } catch (error) {

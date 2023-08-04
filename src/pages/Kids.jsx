@@ -13,7 +13,7 @@ const Kids = () => {
     const fetchPhotos = async () => {
       try {
         const response = await axios.get(
-          `https://tpj.onrender.com/unique/repeated/${categoryName}`
+          `https://spstudio.onrender.com/unique/repeated/${categoryName}`
         ); 
 
         setPhotos(response.data);

@@ -27,7 +27,7 @@
 //     });
 
 //     try {
-//       const response = await fetch('http://localhost:3000/uploads', {
+//       const response = await fetch('https://spstudio.onrender.com/uploads', {
 //         method: 'POST',
 //         body: formData,
 //       });
@@ -104,7 +104,7 @@ const ImageUploader = () => {
         formData.append('images', selectedFiles[i]);
       }
 
-      const response = await fetch('http://localhost:3000/uploads', {
+      const response = await fetch('https://spstudio.onrender.com/uploads', {
         method: 'POST',
         body: formData,
       });

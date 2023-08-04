@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Adminlink from './Adminlink';
-// import ImageUploader from './ImageUploader';
+import ImageUploader from './ImageUploader';
 
 function Uplode() {
   const [image, setImage] = useState('');
@@ -36,7 +36,7 @@ function Uplode() {
     formData.append('name', name);
 
     try {
-      const response = await axios.post('https://tpj.onrender.com/upload', formData, {
+      const response = await axios.post('https://spstudio.onrender.com/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -52,7 +52,7 @@ function Uplode() {
 
   return (
     <>
-      {/* <ImageUploader/> */}
+      <ImageUploader/>
       
     <form className='   space-y-5 h-screen pt-10 text-center' onSubmit={handleSubmit}>
       <Adminlink/>
