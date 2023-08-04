@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import one from '../../assets/images/one.avif'
-// import two from '../../assets/images/two'
+import one from '../../assets/images/one.jpg'
+import two from '../../assets/images/two.jpg'
 import three from '../../assets/images/three.jpg'
-import four from '../../assets/images/four.avif'
-import five from '../../assets/images/five.avif'
-import six from '../../assets/images/six.avif'
+import four from '../../assets/images/four.jpg'
+import five from '../../assets/images/five.jpg'
+import six from '../../assets/images/six.jpg'
 import seven from '../../assets/images/seven.jpg'
-import eight from '../../assets/images/eight.jpg'
-import nine from '../../assets/images/nine.jpg'
-import ten from '../../assets/images/ten.jpg'
-import eleven from '../../assets/images/eleven.jpg'
-import tweleve from '../../assets/images/tweleve.jpg'
+// import eight from '../../assets/images/eight.jpg'
+// import nine from '../../assets/images/nine.jpg'
+// import ten from '../../assets/images/ten.jpg'
+// import eleven from '../../assets/images/eleven.jpg'
+// import tweleve from '../../assets/images/tweleve.jpg'
 
 const Banner = () => {
   const images = [
- one,three ,four,five,six,seven,eight,nine,ten,eleven,tweleve];
+ one ,two,three ,four,five,six,seven];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -32,8 +32,8 @@ const Banner = () => {
   };
 
   return (
-    <div className="relative px-0 lg:px-10">
-      <img src={images[currentIndex]} alt="Slider" className="object-cover w-full h-64 md:h-[60vh] lg:h-[85vh]" />
+    <div className="relative px-0 lg:px-0">
+      <img src={images[currentIndex]} alt="Slider" className="object-cover w-full h-64 md:h-[60vh] lg:h-[85vh]  " />
 
       <div className="absolute bottom-0 left-0 w-full flex justify-center space-x-2 p-4">
         {images.map((image, index) => (
@@ -47,7 +47,7 @@ const Banner = () => {
         ))}
       </div>
 
-      <div className="absolute  top-1/2 w-full  justify-between transform -translate-y-1/2 flex ">
+      <div className="absolute  top-1/2 w-full  justify-between transform-translate-y-1/2 flex   ">
         <button
           className="w-10 h-10 text-4xl text-white flex items-center justify-center"
           onClick={goToPreviousSlide}

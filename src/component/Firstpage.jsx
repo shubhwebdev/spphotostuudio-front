@@ -10,7 +10,7 @@ const Firstpage = ({ isToggled, toggleState }) => {
   return (
     <div className='  fixed  w-screen z-10 top-0 bg-white h-full'>
 
-    <div className=' grid grid-cols-5 h-full overflow-hidden '>
+    <div className=' grid grid-cols-3   lg:grid-cols-5 h-full overflow-hidden '>
         <div>1</div>
         <div>2</div>
         <div>3</div>

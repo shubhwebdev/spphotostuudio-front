@@ -25,16 +25,21 @@ const Footer = () => {
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
         </div>
+        <div>
+        <a className="" href="https://www.instagram.com/thephotojunction/">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+        </div>
       </div>
       <div className=" box4 flex  justify-center items-center  text-lg  md:text-2xl  font-bold">
       
+            <a href="https://www.linkedin.com/in/shubhamweb/">
           Site By :{" "}
           <span>
             {" "}
-            <a href="https://www.linkedin.com/in/shubhamweb/">
               Shubham Chaudhari
-            </a>
           </span>
+            </a>
      
       </div>
 

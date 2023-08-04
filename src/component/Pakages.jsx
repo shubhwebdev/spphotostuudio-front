@@ -2,13 +2,14 @@ import React from 'react'
 
 const Pakages = () => {
   return (
-    <div className=' space-y-10'>
+    <div className=' space-y-10  pb-20'>
       <div className="box1">
         <img src="" alt="" />
       </div>
-      <div className="box2 lg:text-2xl space-y-8">
+      <div className="box2 lg:text-2xl space-y-8 ">
         <h1  className=' text-center  text-4xl lg:text-6xl'>Pricing</h1>
-        <div className=' flex w-full justify-between'>
+      
+        <div className=' flex w-full justify-between '>
           <div>CINEMATIC CANDID</div>
           <div>₹ 55,000 </div>
         </div>
