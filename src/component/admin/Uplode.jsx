@@ -8,6 +8,7 @@ function Uplode() {
   const [category, setCategory] = useState(null);
   const [name, setName] = useState(null);
   const [value, setvalue] = useState(null);
+  const [uploadProgress, setUploadProgress] = useState(0);
  
   console.log( image.image)
   const handleImageChange = (event) => {
@@ -40,19 +41,24 @@ function Uplode() {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
+        onUploadProgress: (progressEvent) => {
+          const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+          setUploadProgress(percentCompleted);
+        },
       });
+      setUploadProgress(0);
 
       alert('Image uploaded successfully!');
-      // Handle successful upload
+      
     } catch (error) {
       console.error('Error uploading image', error);
-      // Handle upload error
+      
     }
   };
 
   return (
     <>
-      <ImageUploader/>
+      {/* <ImageUploader/> */}
       
     <form className='   space-y-5 h-screen pt-10 text-center' onSubmit={handleSubmit}>
       <Adminlink/>
@@ -90,10 +96,30 @@ function Uplode() {
     />
      
 </div>
+    <div className="relative pt-1 w-1/2  mx-auto">
+          <div className="flex mb-2 items-center justify-between">
+            <div>
+              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200">
+                Uploading
+              </span>
+            </div>
+            <div className="text-right">
+              <span className="text-xs font-semibold inline-block text-blue-600">
+                {uploadProgress}%
+              </span>
+            </div>
+          </div>
+          <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-blue-200">
+            <div
+              style={{ width: `${uploadProgress}%` }}
+              className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
+            />
+          </div>
+        </div>
     <div className=' flex mx-auto justify-between w-1/2 '>
 
 
-    <button className='focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 ' type="submit" >
+    <button className='focus:outline-none w-full text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5  mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 ' type="submit" >
       Upload
     </button>
     </div>

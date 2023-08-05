@@ -35,8 +35,8 @@ What if it could never be recorded?</h1>
       <img className=" w-full h-full  object-cover" src={one} alt="" />
       <div>
         <div className=" text-center py-3 md:py-10  ">
-          <h1 className="text-xl md:text-4xl">REAL LOVE STORIES</h1>
-          <p className="  py-2 md:py-5  text-center w-[70%] mx-auto space-y-5 text-sm md:text-base">like a river flows surely to the sea, so it goes some things are meant to be.</p>
+          <h1 className="text-xl md:text-4xl uppercase">You focus on the big day,</h1>
+          <p className="  py-2 md:py-5  text-center w-[70%] mx-auto space-y-5 text-sm md:text-base uppercase">leave us to focus on you...</p>
         </div>
         <div className="  grid grid-cols-3    md:h-80 lg:h-96 gap-2 md:gap-5 lg:gap-10 object-cover px-0 md:px-10 ">
          <div  className=" w-full h-full overflow-hidden">
@@ -60,7 +60,7 @@ What if it could never be recorded?</h1>
           <h1 className="text-xl md:text-4xl">PACKAGES
 
  </h1>
-          <p className="  py-2 md:py-5 text-center w-[70%] mx-auto space-y-5 text-sm md:text-base">like a river flows surely to the sea, so it goes some things are meant to be.</p>
+
         </div>
         <div className="  grid  grid-cols-3   md:h-80 lg:h-96 gap-2 md:gap-5 lg:gap-10 object-cover px-0 md:px-10 ">
          <Link  to="/package" className=" w-full h-full overflow-hidden">

@@ -4,7 +4,8 @@
 body{
     font-family: 'Cormorant', serif;
     color: #575757;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    background-color: #F5F1EB;
 
 }
 @tailwind base;

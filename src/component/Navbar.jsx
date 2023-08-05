@@ -14,11 +14,11 @@ const Navbar = () => {
     <nav className=" flex-col  justify-center items-center     max-w-6xl mx-auto lg:px-10  ">
    
       <div className="max-w-screen  flex-col   justify-between md:flex-col flex-wrap items-center md:justify-center   ">
-        <Link to="/" className="hidden md:flex items-center justify-center py-5 lg:py-16">
+        <Link to="/" className="hidden md:flex items-center justify-center py-5 lg:py-16  ">
           <img
           // style={{filter:backdrop}}
             src={logo}
-            className=" h-16 w-44 md:h-14  md:w-40 border-white    object-cover object-center    "
+            className=" h-16 w-44 md:h-14  md:w-40 border-white    object-cover object-center drop-shadow-lg   "
             alt="Logo"
           />
         
@@ -41,19 +41,12 @@ const Navbar = () => {
             <li>
               <Link
                 to="/home"
-                className="hidden md:block       "
+                className=" "
               >
                Home
               </Link>
             </li>
-            <li>
-              <Link
-                to="/gallery"
-                className="block       md:bg-transparent    md:border-0 "
-              >
-               Treditional shoot
-              </Link>
-            </li>
+       
             <li>
               <Link
                 to="/wedding"
@@ -70,18 +63,19 @@ const Navbar = () => {
                 Pre wedding
               </Link>
             </li>
+        
             <li>
               <Link
-                to="/maternity"
-                className="  block    md:border-0  "
+                to="/about"
+                className=" "
               >
-              Cinmatic shoot
+               About us
               </Link>
             </li>
             <li>
               <Link
                 to="/package"
-                className=" hidden  md:block   rounded "
+                className="  "
               >
                Packages
               </Link>
