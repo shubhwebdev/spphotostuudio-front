@@ -13,7 +13,7 @@ const About = () => {
   };
 
   return (
-    <div  className='   md:w-3/4 mx-auto  text-2xl  font-bold   leading-10   space-y-10'>
+    <div  className='   md:w-3/4 mx-auto  text-lg md:text-2xl  font-bold   leading-10   space-y-10'>
    {/* <h1 style={textWithStrokeStyle} className=' md:text-9xl  text-4xl uppercase text-center text-transparent  font-serif'>about us</h1> */}
   <p className=' drop-shadow-2xl'>The SP Photography is a  Delhi based  Wedding Photography Studio that specialises in weddings and all its’ related ceremonies along with pre-wedding shoots. Our professionals practice photography and fine art photography too. We love to travel across the nation capturing the most precious moments from weddings of all the cultures.</p>
 

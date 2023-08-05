@@ -66,9 +66,7 @@ function App() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/uplode" element={ <Uplode />} />
             <Route exact path="/home" element={<Home />} />
-            <Route path="/gallery" element={<RandomImage category="gallery" />} />
-            <Route path="/maternity" element={<RandomImage category="maternity" />} />
-            <Route path="/kids" element={<RandomImage category="kids" />} />
+      
             <Route path="/:categoryName" element={<Kids />} />
             <Route path="/:categoryName/:name" element={<ImagesPage />} />
             <Route path="/package" element={<Pakages/>} />
