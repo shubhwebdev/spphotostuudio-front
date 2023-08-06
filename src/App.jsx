@@ -6,6 +6,7 @@ const Home = lazy(()=>import('./component/Home/Home'))
 const Footer = lazy(()=>import('./component/Footer'))
 const ImagesPage = lazy(()=>import('./component/ImagesPage'))
 const Kids = lazy(()=>import('./pages/Kids'))
+const Kids2 = lazy(()=>import('./pages/Kids2'))
 const Admin = lazy(()=>import('./component/admin/Admin'))
 const NotFound = lazy(()=>import('./component/NotFound'))
 const Uplode = lazy(()=>import('./component/admin/Uplode'))
@@ -67,7 +68,8 @@ function App() {
           <Route path="/admin/uplode" element={ <Uplode />} />
             <Route exact path="/home" element={<Home />} />
       
-            <Route path="/:categoryName" element={<Kids />} />
+            <Route path="/wedding" element={<Kids />} />
+            <Route path="/prewedding" element={<Kids2 />} />
             <Route path="/:categoryName/:name" element={<ImagesPage />} />
             <Route path="/package" element={<Pakages/>} />
             <Route path="/about" element={<About/>} />

@@ -8,7 +8,7 @@ import { useParams } from "react-router-dom";
 import LazyImage from "../component/LazyImage";
 
 
-const Kids = () => {
+const Kids2 = () => {
   const { categoryName } = useParams();
   const [photos, setPhotos] = useState([]);
   const [loading , setLoading] =useState(true)
@@ -18,7 +18,7 @@ const Kids = () => {
     const fetchPhotos = async () => {
       try {
         const response = await axios.get(
-          `https://spstudio.onrender.com/unique/repeated/wedding`
+          `https://spstudio.onrender.com/unique/repeated/prewedding`
         ); 
     
 
@@ -63,9 +63,9 @@ const Kids = () => {
                   className="h-full w-full object-cover object-center"
                   loading="lazy"
                   />
-                     <p className=" absolute  bottom-0     w-full  text-lg md:text-md lg:text-lg text-black bg-white/50 text-center  pb-1">
+                     {/* <p className=" absolute  bottom-0     w-full  text-lg md:text-md lg:text-lg text-black bg-white/50 text-center  pb-1">
               {photo._id}
-            </p>
+            </p> */}
 
               </Link>
             ))}
@@ -76,5 +76,5 @@ const Kids = () => {
   );
 };
 
-export default Kids;
+export default Kids2;
 
