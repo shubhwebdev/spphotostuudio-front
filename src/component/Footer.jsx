@@ -20,6 +20,20 @@ const Footer = () => {
         <div><span className=" text-red-700" ><ion-icon name="call-outline"></ion-icon></span> <a href="tel:9911722126">Komal Verma  +91  99 - 117 221 26</a> </div>
         <div>admin@spphotography.in</div>
       </div>
+      <div className="flex flex-col  justify-center items-center  text-lg  md:text-2xl  font-bold capitalize">
+      <p>
+
+      Online banking transaction details are given below Name:
+      </p>
+      <p>
+
+       KOMAL KUMARI, PHONEPAY, GOOGLE PAY, 
+      </p>
+       <p>
+
+       PAYTM UPI: 9911722126, K25012019@OKAXI
+       </p>
+      </div>
       <div className="box3 flex  justify-center items-center text-4xl  space-x-8">
         <div> 
         <a className="" href="https://www.facebook.com/profile.php?id=100090772556152&mibextid=ZbWKwL">
@@ -37,6 +51,7 @@ const Footer = () => {
             </a>
         </div>
       </div>
+      
       <div className=" box4 flex  justify-center items-center  text-lg  md:text-2xl  font-bold">
       
             <a href="https://www.linkedin.com/in/shubhamweb/">
