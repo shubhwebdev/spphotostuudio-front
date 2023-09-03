@@ -21,7 +21,7 @@ const About = () => {
 
 
   <p>
-  We cover all the fun and emotional moments of your pre-wedding, wedding and post-wedding functions and combine them in an album, for you to adore forever. The Photo Junction owns a good reputation of work and is serving the clients for more than a decade that is why we are the top most demand of every wedding and prewedding shoot lovers.
+  We cover all the fun and emotional moments of your pre-wedding, wedding and post-wedding functions and combine them in an album, for you to adore forever. SP Photography owns a good reputation of work and is serving the clients for more than a decade that is why we are the top most demand of every wedding and prewedding shoot lovers.
   </p>
   <p>
   Our studio has a team of professional photographers who have expertise in capturing people in their natural environments, situations and emotions Our vision is to offer quality work on time coz' we know you deserve the best. So the work is so created that you cherish your lifetime moments and enjoy the beautiful stories that are magically crafted with cameras'.
