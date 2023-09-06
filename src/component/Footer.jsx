@@ -7,11 +7,11 @@ const Footer = () => {
 
       <div className=" border-y  py-2 md:py-5 border-black ">
       <h1 className=" text-center text-2xl md:text-6xl text-black"> 
-      <span className=" text-red-600">
+      <span className=" text-red-600 mr-3">
 
       S.P 
       </span>
-       photograpy</h1>
+            Photograpy</h1>
       </div>
       <div className="box2  md:flex  justify-around items-center   text-xl md:font-bold">
         <div>Sec-34, Faridabad, Haryana, 121003</div>
