@@ -9,9 +9,9 @@ const Footer = () => {
       <h1 className=" text-center text-2xl md:text-6xl text-black"> 
       <span className=" text-red-600">
 
-      S.P P
+      S.P 
       </span>
-       hotograpy</h1>
+       photograpy</h1>
       </div>
       <div className="box2  md:flex  justify-around items-center   text-xl md:font-bold">
         <div>Sec-34, Faridabad, Haryana, 121003</div>
