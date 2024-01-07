@@ -18,7 +18,7 @@ const ImagesPage = () => {
     const fetchImages = async () => {
       try {
         const response = await axios.get(
-          `https://spstudio.onrender.com/images/person?category=${categoryName}&name=${name}`,{
+          `https://sbbbackend.vercel.app/images/person?category=${categoryName}&name=${name}`,{
             params: {
             
               limit:10,
